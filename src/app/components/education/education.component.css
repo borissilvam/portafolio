@@ -1,0 +1,43 @@
+.container-education{
+  padding: 2rem 1.6rem 1.2rem 1.6rem
+}
+
+.education-label{
+  padding: 0 0 1.2rem 0;
+}
+h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.education-cards{
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+
+}
+
+.card{
+  padding: 1.6rem 3.2rem 1.6rem 3.2rem ;
+  height: 15rem;
+
+  background: rgba(41, 48, 56, 1);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.7rem 0;
+}
+
+.date{
+  font-size: 1.6rem;
+}
+
+.label-institution{
+  font-size: 1.6rem;
+}

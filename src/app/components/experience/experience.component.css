@@ -1,0 +1,69 @@
+.container-experience{
+  padding: 2rem 1.6rem 1.2rem 1.6rem
+}
+
+.experience-label{
+  padding: 0 0 1.2rem 0;
+}
+
+h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.container-work{
+
+  display: flex;
+  gap: 0.8rem;
+}
+
+.work-perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7.2rem;
+  width: 4rem;
+  gap: 0.4rem;
+
+}
+
+.fondo{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1.2rem;
+
+}
+
+.top{
+  background: rgba(61, 71, 84, 1);
+  width: 0.15rem;
+  height: 0.8rem;
+}
+
+.botton{
+  background: rgba(61, 71, 84, 1);
+  width: 0.15rem;
+  height: 3.2rem;
+}
+
+.work-text{
+  padding: 1.2rem 0;
+}
+
+.text-title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 0  0.5rem 0;
+}
+
+.text-date{
+  font-size: 1.6rem;
+}

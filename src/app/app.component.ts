@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Cv, Skill } from './interfaces/cv.interface';
+import { CvService } from './services/cv.service';
+import { tap } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,39 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'porfolio';
+
+
+
+  public cv?: Cv ;
+
+
+
+  public skillNames?: string[];
+
+  private cvService = inject(CvService);
+
+  ngOnInit(): void {
+    this.getDataCv();
+
+  }
+
+
+  getDataCv(){
+
+    this.cvService.getCv().pipe(
+
+    )
+    .subscribe(cv => {
+      this.cv = cv  ;
+
+      this.cv.skills.forEach( (skill)=> {
+        this.skillNames = skill.keywords
+      })
+
+
+    })
+
+  }
+
+
 }

@@ -1,0 +1,23 @@
+.container-contact{
+  padding: 2rem 1.6rem 1.2rem 1.6rem
+}
+
+.contact-label{
+
+}
+
+h3{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.container-links{
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.icon{
+  height: 2.4rem;
+  weigth: 2.4rem;
+}

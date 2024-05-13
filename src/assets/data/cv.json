@@ -1,0 +1,154 @@
+{
+  "basics": {
+    "name": "Boris Silva ",
+    "label": "Programmer",
+    "image": "https://avatars.githubusercontent.com/u/103073577?v=4",
+    "email": "boryssilva0202@gmail.com",
+    "phone": "(+593) 0991435516",
+    "url": "https://johndoe.com",
+    "summary": "Soy un desarrollador full stack e ingeniero de sistemas. Disfruto construyendo cosas, resolviendo problemas y aprendiendo nuevas tecnologías. Mi pasión radica en desarrollar software confiable, eficiente y seguro. Tengo experiencia en la creación de aplicaciones web, APIs, herramientas de automatización e infraestructura.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "Guayaquil",
+      "countryCode": "EC",
+      "region": "Guayas"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "@borissilvam",
+      "url": "https://twitter.com/borissilvam",
+      "imageUrl": "https://www.fineyudu.com/assets/theme/dark/icon/icon-x.svg"
+    },
+    {
+      "network": "GitHub",
+      "username": "@borissilvamoreno",
+      "url": "https://github.com/borissilvam",
+      "imageUrl": "https://www.fineyudu.com/assets/theme/dark/icon/icon-github.svg"
+    },
+    {
+      "network": "Linkedim",
+      "username": "@borissilvamoreno",
+      "url": "https://www.linkedin.com/in/boris-silva-moreno",
+      "imageUrl": "https://www.fineyudu.com/assets/theme/dark/icon/icon-linkedin.svg"
+    }
+  ]
+  },
+  "work": [{
+    "name": "Viamatica",
+    "position": "Pasante de Desarrollador Backend",
+    "url": "https://viamatica.com",
+    "imageUrl": "https://viamatica.hiringroom.com/data/accounts/viamatica/profile.jpg",
+    "startDate": "2023-06-01",
+    "endDate": "2023-08-30",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }
+],
+  "volunteer": [{
+    "organization": "Viamatica",
+    "position": "Backend Developer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad de Guayaquil",
+    "url": "https://www.ug.edu.ec/",
+    "area": "Ingenieria en Sistemas",
+    "studyType": "Bachelor",
+    "startDate": "2021",
+    "endDate": "2025",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  },
+  {
+    "institution": "Platzi",
+    "url": "",
+    "area": "Backend con Java",
+    "studyType": "Bachelor",
+    "startDate": "2022",
+    "endDate": "2023",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  },
+  {
+    "institution": "Udemy",
+    "url": "https://www.ug.edu.ec/",
+    "area": "Angular",
+    "studyType": "Bachelor",
+    "startDate": "2023",
+    "endDate": "2024",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }
+  ],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "TypeScript",
+      "Git",
+      "Docker"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}
