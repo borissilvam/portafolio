@@ -43,7 +43,7 @@ a{
 
 
 
-button{
+.button{
   font-size: 1.4rem;
   font-weight: bold;
   background-color: rgba(41, 48, 56, 1) ;
@@ -54,3 +54,4 @@ button{
   padding: 1rem;
   cursor: pointer;
 }
+
