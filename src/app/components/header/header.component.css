@@ -1,0 +1,56 @@
+.container-header{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+
+.header-title{
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon{
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: rgb(78, 79, 80);
+}
+
+h2{
+  font-size: 1.8rem;
+}
+
+.header-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+p{
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+button{
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: rgba(41, 48, 56, 1) ;
+  border: none;
+  border-radius: 1.2rem;
+  height: 4rem;
+  width: auto;
+  padding: 1rem;
+  cursor: pointer;
+}

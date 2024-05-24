@@ -1,16 +1,18 @@
-
+<div class="depth2-0">
+  <app-header></app-header>
+</div>
 
 <div class="depth2">
   <div class="depth3">
-    <app-hero [basic]="cv?.basics"></app-hero>
+    <app-hero  id="home" [basic]="cv?.basics"></app-hero>
     <app-about [summary]="cv?.basics?.summary"></app-about>
     <app-skills [skillsName]="skillNames"></app-skills>
     <app-experience [works]="cv?.work"></app-experience>
     <app-education [educations]="cv?.education"></app-education>
-    <!-- <app-proyects></app-proyects> -->
-    <app-contact [profiles]="cv?.basics?.profiles"></app-contact>
+    <!-- <app-proyects id:"proyects"></app-proyects> -->
+    <app-contact id="contact" [profiles]="cv?.basics?.profiles"></app-contact>
   </div>
 </div>
 
 
-<router-outlet />
+

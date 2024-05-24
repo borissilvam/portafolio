@@ -5,8 +5,14 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:href": "ng build --base-href ./",
+    "build:github": "npm run delete:docs && build:href && create:docs && copy:dist",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "delete:docs": "rm -r docs",
+    "create:docs": "mkdir docs",
+    "copy:dist": "cp -r dist/porfolio/browser/* ./docs"
+
   },
   "private": true,
   "dependencies": {
